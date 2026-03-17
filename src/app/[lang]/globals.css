@@ -1,7 +1,10 @@
 :root {
-  --primary-bg-color: #2C2C2C;
-  --primary-color: #FFFFFF;
-  --secondary-color: #B3B3B3;
+  --primary-bg-color: #0a0a0a;
+  --secondary-bg-color: #141414;
+  --primary-color: #ffffff;
+  --secondary-color: #a0a0a0;
+  --accent-color: #3b82f6;
+  --border-color: #262626;
 }
 
 * {
@@ -10,8 +13,24 @@
   margin: 0;
 }
 
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
 }

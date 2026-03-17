@@ -1,21 +1,171 @@
 {
+    "navbar": {
+        "home": "Home",
+        "expertise": "Expertise",
+        "experience": "Experience",
+        "contact": "Contact"
+    },
     "header": {
-        "welcome": "Hi, i'm Christian! 👋",
-        "rule": "Front end Developer"
+        "welcome": "Hi, I'm Christian!",
+        "role": "Full Stack Developer",
+        "description": "Developer with over 12 years of experience creating web and mobile solutions. Specialized in React, TypeScript, Node.js and NestJS."
+    },
+    "expertise": {
+        "title": "My Expertise",
+        "skills": [
+            { "name": "JavaScript", "icon": "/assets/javascript.png" },
+            { "name": "TypeScript", "icon": "/assets/typescript.png" },
+            { "name": "React", "icon": "/assets/react.png" },
+            { "name": "Node.js", "icon": "/assets/node.png" },
+            { "name": "Python", "icon": "/assets/python.png" },
+            { "name": "PHP", "icon": "/assets/php.png" }
+        ]
     },
     "experience": {
-        "title": "Experience",
-        "description": "I've been working 12 years as a Software Developer in companys such as Claro, Dasa and Hubla.",
-        "time": "years"
+        "title": "Professional Experience",
+        "items": [
+            {
+                "role": "CTO",
+                "company": "Pleno Skateshop",
+                "period": "03/2025 - Present",
+                "description": "Creation of a marketplace for the underground textile industry creating a solution for various suppliers who have skate shops.",
+                "technologies": ["TypeScript", "React", "Next.js", "NestJS", "TailwindCSS", "GitHub Actions", "Jest"]
+            },
+            {
+                "role": "Senior Full Stack Engineer",
+                "company": "ICTS",
+                "period": "05/2024 - 03/2025",
+                "description": "Maintenance of platforms and systems in production. Bug resolution, implementation of improvements in PHP/Laravel and React systems. Python scraping bots.",
+                "technologies": ["TypeScript", "React", "PHP", "Laravel", "CSS3", "HTML5", "GIT", "Next.js", "PostgreSQL", "Redis", "SharePoint"]
+            },
+            {
+                "role": "Senior Front-end Engineer",
+                "company": "Hubla",
+                "period": "12/2021 - 08/2022",
+                "description": "Provisioning of groups for platforms (WhatsApp, Telegram) and subscription management for content creators.",
+                "technologies": ["TypeScript", "React", "Jest", "React Testing Library", "CSS3", "Sass", "HTML5", "GIT", "Next.js", "GitHub Actions"]
+            },
+            {
+                "role": "Senior Front-end Developer",
+                "company": "Dasa",
+                "period": "02/2021 - 12/2021",
+                "description": "Development of a portal for the commercial area aimed at diagnosing glosas in clinical service procedures.",
+                "technologies": ["Node.js", "React", "Jest", "RTL", "Kafka", "CSS3", "HTML5", "GIT", "PostgreSQL", "Docker", "AWS", "Lambda", "Antd Design", "Jenkins", "Fortify", "SonarQ"]
+            },
+            {
+                "role": "Senior Full Stack Web Developer",
+                "company": "Rojemac",
+                "period": "09/2020 - 03/2021",
+                "description": "Development of the company's representative portal, integrated with SENIOR ERP web services. Development, maintenance and support.",
+                "technologies": ["Node.js", "React", "GraphQL", "Kafka", "CSS3", "HTML5", "GIT", "PostgreSQL", "MongoDB", "Heroku", "Vercel", "Material UI", "C#"]
+            },
+            {
+                "role": "Senior Full Stack Web Developer",
+                "company": "Agriconnected",
+                "period": "08/2018 - 09/2020",
+                "description": "Development of the company's web platform and application. IoT solution for monitoring agricultural machinery.",
+                "technologies": ["Python", "Django", "jQuery", "JavaScript", "React", "CSS3", "HTML5", "GIT", "MySQL", "Bootstrap", "React Native", "Celery", "Django REST Framework", "Redux", "Redux Saga", "Watermelon DB"]
+            },
+            {
+                "role": "Senior Full Stack Web Developer",
+                "company": "Claro",
+                "period": "01/2016 - 12/2017",
+                "description": "In the business indicators innovation team. Changes, innovations and corrections to the Claro/NET/Embratel intranet reports portal.",
+                "technologies": ["PHP", "CodeIgniter", "jQuery", "JavaScript", "CSS3", "HTML5", "GIT", "MySQL", "Oracle", "Bootstrap", "ETL", "Linux", "Excel", "BI", "QlikView", "Tableau"]
+            },
+            {
+                "role": "Web Developer Front-end/Back-end",
+                "company": "Microsistec",
+                "period": "2015",
+                "description": "Creation of responsive professional websites, API data consumption, system integrators creation.",
+                "technologies": ["PHP", "Laravel", "Limonade", "JavaScript", "HTML5", "CSS3", "Sass", "Fireworks", "GIMP", "SVN", "MySQL", "Bootstrap", "Photoshop"]
+            },
+            {
+                "role": "Partner",
+                "company": "Startimob",
+                "period": "2013 - 2014",
+                "description": "Company with a social network focused on the real estate market. Participation in the entire product creation.",
+                "technologies": ["PHP", "jQuery", "CSS3", "AJAX", "Node.js", "WebSocket", "Redis", "MySQL", "HTML5", "Amazon EC2", "Bootstrap", "LESS", "SVN"]
+            },
+            {
+                "role": "Database Analyst / PHP Developer",
+                "company": "Netagil",
+                "period": "2013",
+                "description": "Creation and implementation of company ERP modules, NFE, Project. ERP maintainability.",
+                "technologies": ["ASP", "PHP", "MySQL", "Java", "Oracle"]
+            },
+            {
+                "role": "Front-end Developer",
+                "company": "Plug7 - Web Intelligence",
+                "period": "2011 - 2012",
+                "description": "Development of websites for the real estate market consuming data from the real estate system API.",
+                "technologies": ["PHP", "ZEND", "HTML5", "CSS3", "jQuery", "JavaScript", "Photoshop", "Fireworks", "MySQL", "LESS", "SVN"]
+            }
+        ]
     },
-    "infos": {
+    "education": {
+        "title": "Education",
+        "items": [
+            {
+                "degree": "MBA Full Stack Developer",
+                "institution": "Impacta Tecnologia",
+                "year": "2021",
+                "description": "Full Stack Engineer. Skills in microservices, Java with Spring, SPAs, agile methodologies, CI/CD, Terraform, GitHub Actions, Jenkins, SonarQ, Docker and Kubernetes."
+            },
+            {
+                "degree": "Bootcamp - Omnistack Week Full Stack",
+                "institution": "Rocketseat",
+                "year": "2020",
+                "description": "JavaScript Full Stack"
+            },
+            {
+                "degree": "Django 2.1 & Python",
+                "institution": "The Ultimate Web Development Bootcamp",
+                "year": "2018",
+                "description": ""
+            },
+            {
+                "degree": "Python for Data Science",
+                "institution": "Datacamp",
+                "year": "2017",
+                "description": ""
+            },
+            {
+                "degree": "Bachelor's Degree in Information Systems",
+                "institution": "University",
+                "year": "2011 - 2015",
+                "description": "IT management, programming, algorithms, advanced mathematics, statistics, database, electrical engineering, ITIL, PMBOK, computer networks."
+            },
+            {
+                "degree": "Technical Course in IT",
+                "institution": "ETEC",
+                "year": "2012",
+                "description": ""
+            }
+        ]
+    },
+    "languages": {
         "title": "Languages",
-        "subtitle": "Education",
-        "englishLevel": "Mid level",
-        "portugueseLevel": "Native Speaker",
-        "schoolDegree": "Full stack developer Degree"
+        "items": [
+            { "language": "English", "level": "Advanced" },
+            { "language": "Spanish", "level": "Intermediate" },
+            { "language": "Portuguese", "level": "Native" }
+        ]
     },
     "contact": {
-        "contact": "Contact me"
+        "title": "Let's talk!",
+        "subtitle": "Have an exciting project? Get in touch!",
+        "nameLabel": "Name",
+        "emailLabel": "Email",
+        "messageLabel": "Message",
+        "buttonText": "Send message",
+        "successMessage": "Message sent successfully!"
+    },
+    "footer": {
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "twitter": "Twitter",
+        "email": "Email"
     }
 }

@@ -1,25 +1,41 @@
-import { Progress } from '../progress/progress'
 import './experience.scss'
 
 interface ExperienceProps {
-    title: string,
-    description: string,
-    time: string
+  title: string
+  experiences: {
+    role: string
+    company: string
+    period: string
+    description: string
+    technologies: string[]
+  }[]
 }
 
-export function Experience({ title , description , time}: ExperienceProps){
-    return(
-        <div className="experience">
-            <h2>{title}</h2>
-            <span>{description}</span>
-            <div className="progress-container">
-                <Progress time={time} icon='/assets/javascript.png' name='javascript' year={8}/>
-                <Progress time={time} icon='/assets/node.png' name='node' year={5}/>
-                <Progress time={time} icon='/assets/react.png' name='node' year={5}/>
-                <Progress time={time} icon='/assets/php.png' name='php' year={4}/>
-                <Progress time={time} icon='/assets/typescript.png' name='typescript' year={3}/>
-                <Progress time={time} icon='/assets/python.png' name='python' year={2}/>
+export function Experience({ title, experiences }: ExperienceProps) {
+  return (
+    <section id="experience" className="experience-section">
+      <div className="section-header">
+        <h2>{title}</h2>
+      </div>
+      <div className="experience-list">
+        {experiences.map((exp, index) => (
+          <div key={index} className="experience-item">
+            <div className="experience-header">
+              <div>
+                <h3>{exp.role}</h3>
+                <span className="company">{exp.company}</span>
+              </div>
+              <span className="period">{exp.period}</span>
             </div>
-        </div>
-    )
+            <p className="description">{exp.description}</p>
+            <div className="technologies">
+              {exp.technologies.map((tech, i) => (
+                <span key={i} className="tech-tag">{tech}</span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
 }

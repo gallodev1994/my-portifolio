@@ -1,63 +1,56 @@
 .info-container {
-    grid-area: info;
     display: flex;
     flex-direction: column;
-    gap: 36px;
-    max-width: 500px;
+    gap: 32px;
+    width: 100%;
+    max-width: 400px;
 
     .languages-info {
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: 16px;
     
         span {
-            font-size: 24px;
+            font-size: 16px;
             color: var(--secondary-color);
         }
     }
 
     .education-info {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        gap: 8px;
 
         span {
-            &:first-child {
-                font-size: 30px;
-            }
+            font-size: 20px;
+            color: var(--primary-color);
+            
             &:last-child {
                 color: var(--secondary-color);
-                text-align: center;
-                width: 331px;
-                font-size: 24px;
+                font-size: 14px;
             }
         }
     }
 
     .translate-info {
-        margin-top: 35px;
         .translate-btn {            
-            background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
+            background: var(--primary-color);
             width: 100%;
-            border-radius: 24px;
-            height: 55px;
-            font-weight: 500;
-            color: var(--primary-color);
-            text-transform: uppercase;
-            font-size: 20px;
+            border-radius: 8px;
+            padding: 12px;
+            font-weight: 400;
+            color: var(--input-bg);
+            font-size: 14px;
             cursor: pointer;
-            line-height: 55px;
             text-align: center;
             text-decoration: none;
-            display: flex;
-            justify-content: space-around;
+            display: block;
+            border: none;
+            transition: opacity 0.2s ease;
 
-            a {
-                color: #FFF;
-                text-decoration: none;
-            }                        
+            &:hover {
+                opacity: 0.9;
+            }                      
         }
     }
-
 }
-
