@@ -1,6 +1,6 @@
 # Christian Gallo - Portfólio
 
-Portfólio profissional de Christian Gallo, Engenheiro de Software Full Stack com mais de 12 anos de experiência em desenvolvimento web e mobile.
+Portfólio profissional de Christian Gallo, Engenheiro de Software Full Stack com mais de 14 anos de experiência em desenvolvimento web e mobile.
 
 ![Next.js](https://img.shields.io/badge/Next.js-13-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.1-blue)
