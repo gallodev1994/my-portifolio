@@ -14,18 +14,9 @@ Desenvolvedor Full Stack com experiência sólida em:
 - **Frontend**: React, Next.js, TypeScript, TailwindCSS
 - **Backend**: Node.js, NestJS, PHP, Laravel, Python
 - **Banco de Dados**: PostgreSQL, MySQL, MongoDB, Redis
+- **Mensageria**: RabbitMQ
 - **Cloud & DevOps**: AWS, Docker, GitHub Actions, Jenkins
-
-## 🛠️ Tecnologias
-
-<div align="center">
-  <img src="/public/assets/javascript.png" width="48" height="48" alt="JavaScript"/>
-  <img src="/public/assets/typescript.png" width="48" height="48" alt="TypeScript"/>
-  <img src="/public/assets/react.png" width="48" height="48" alt="React"/>
-  <img src="/public/assets/node.png" width="48" height="48" alt="Node.js"/>
-  <img src="/public/assets/python.png" width="48" height="48" alt="Python"/>
-  <img src="/public/assets/php.png" width="48" height="48" alt="PHP"/>
-</div>
+- **Arquitetura**: Atomic Design, SOLID, Micro Frontend, DDD
 
 ## 📋 Seções
 
@@ -62,12 +53,12 @@ npm run dev
 
 ## 🔧 Scripts Disponíveis
 
-| Comando | Descrição |
-|---------|-----------|
-| `npm run dev` | Inicia o servidor de desenvolvimento |
-| `npm run build` | Cria a build de produção |
-| `npm run start` | Inicia o servidor de produção |
-| `npm run lint` | Executa o linter |
+| Comando         | Descrição                            |
+| --------------- | ------------------------------------ |
+| `npm run dev`   | Inicia o servidor de desenvolvimento |
+| `npm run build` | Cria a build de produção             |
+| `npm run start` | Inicia o servidor de produção        |
+| `npm run lint`  | Executa o linter                     |
 
 ## 📝 Configuração do Formulário de Contato
 
